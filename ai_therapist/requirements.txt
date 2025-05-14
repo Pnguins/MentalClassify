@@ -1,0 +1,12 @@
+streamlit
+google-generativeai
+python-dotenv
+google-api-python-client
+pydantic
+qdrant-client
+sentence-transformers
+torch
+transformers
+scikit-learn
+tqdm
+numpy
