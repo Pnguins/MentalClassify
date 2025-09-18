@@ -7,8 +7,8 @@ from database.database import save_conversation_history, load_conversation_histo
 from models.models import MentalHealthClassification
 from prompts.prompts import IDENTITY_PROMPT, LANGUAGE_PROMPT, CONVERSATION_PROMPT, MENTAL_HEALTH_CLASSIFICATION_PROMPT
 
-QDRANT_URL = "https://35612626-619b-40d3-90db-e71a27a12e38.eu-west-1-0.aws.cloud.qdrant.io:6333"
-QDRANT_COLLECTION = "Mental_Llama"
+QDRANT_URL = "https://b8038fee-1a90-4ae7-b6d4-5da4b139e48c.us-west-1-0.aws.cloud.qdrant.io:6333"
+QDRANT_COLLECTION = "Mental_Llama_Demo"
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
