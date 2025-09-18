@@ -51,7 +51,7 @@ except Exception as e:
    embedding_model = None
    
 # Initialize Qdrant Client
-QDRANT_URL = os.getenv("QDRANT_URL", "https://35612626-619b-40d3-90db-e71a27a12e38.eu-west-1-0.aws.cloud.qdrant.io:6333")
+QDRANT_URL = os.getenv("QDRANT_URL", "https://b8038fee-1a90-4ae7-b6d4-5da4b139e48c.us-west-1-0.aws.cloud.qdrant.io:6333")
 try:
     qdrant_client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
     logger.info("Qdrant client initialized successfully")
